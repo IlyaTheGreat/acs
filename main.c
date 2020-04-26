@@ -141,8 +141,6 @@ int main()
     char  sym1 = 'A';
     char  sym2 = 'B';
 
-    fflush(stdin);
-
     N   = scanNumber();
     str = generateString(N);
 
