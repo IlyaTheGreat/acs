@@ -19,14 +19,11 @@ int scanNumber(void)
     getchar();
 
     if (num > MAX_RAND || num < 1) {
-        printf("Число не может быть меньше единицы или больше %d \n", (MAX_RAND));
+        printf("Число не может быть меньше единицы или больше %d \n", MAX_RAND);
         num = scanNumber();
     }
-    else {
-        result = num;
-    }
-    
-    printf("\n#%d#\n", result);
+    result = num;
+
     return result;
 }
 
